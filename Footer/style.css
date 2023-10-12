@@ -1,0 +1,56 @@
+:root {
+	--orange-color: #da722c;
+	--dark-blue-color: #023047;
+	--dark-color: #070917;
+	--light-color: #e8f7fb;
+	--light-blue-color: #6f7dfb;
+  }
+  
+  *,
+  *::after,
+  *::before {
+	box-sizing: border-box;
+  }
+  
+  body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  .wrapper {
+	max-width: 1134px;
+	margin: 0 auto;
+  }
+  
+  /* Buttons */
+  
+  .btn {
+	padding: 16px 32px;
+	border-radius: 24px;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+  }
+  
+  .btn.dark {
+	background: var(--dark-blue-color);
+  }
+  
+  .btn.light {
+	background: var(--orange-color);
+  }
+  
+  .btn.enrol-icon::before {
+	content: url("images/enrol-now-icon.svg");
+	position: absolute;
+	top: 50%;
+	left: 32px;
+	transform: translateY(-50%);
+  }
+  
+  .btn.enrol-icon {
+	padding-left: 60px;
+  }
