@@ -1,0 +1,103 @@
+:root {
+	--orange-color: #da722c;
+	--dark-blue-color: #023047;
+	--dark-color: #070917;
+	--light-color: #e8f7fb;
+	--light-blue-color: #0a0b14;
+	--light-grey-colour: #f8f9fa;
+  }
+
+  html {
+	scroll-behavior: smooth;
+  }
+  
+  *,
+  *::after,
+  *::before {
+	box-sizing: border-box;
+  }
+  
+  body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  .wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+  }
+  
+  /* Buttons */
+  
+  .btn {
+	padding: 16px 32px;
+	border-radius: 24px;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+  }
+  
+  .btn.dark {
+	background: var(--dark-blue-color);
+  }
+  
+  .btn.light {
+	background: var(--orange-color);
+  }
+  
+  .btn.enrol-icon::before {
+	content: url("/images/enrol-now-icon.svg");
+	position: absolute;
+	top: 57%;
+	left: 32px;
+	transform: translateY(-50%);
+  }
+  
+  .btn.enrol-icon {
+	padding-left: 60px;
+  }
+
+  /* Text Sizes */
+
+  section {
+	margin-top: 100px;
+  }
+  
+  h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 120%;
+	margin: 0;
+	color: var(--dark-blue-color);
+  }
+  
+  h2.light {
+	color: #fff;
+  }
+
+  a {
+	transition: all 500ms ease;
+  }
+
+  a:hover {
+	color: var(--orange-color);
+  }
+  
+  section p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 200%;
+	color: var(--dark-blue-color);
+	margin: 12px 0;
+  }
+
+  /* Contact Section */
+  
+  .app-section {
+	padding-top: 100px;
+	text-align: center;
+  }
