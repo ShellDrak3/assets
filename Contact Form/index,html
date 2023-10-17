@@ -1,0 +1,20 @@
+    <!-- Contact Section -->
+
+    <div class="wrapper">
+        <section class="app-section" id="contact-us">
+          <h2>Join Us!</h2>
+          <p>You can join us in the discord server linked below:</p>
+  
+          <div class="app-buttons">
+            <div class="app-btn">
+              <img src="/images/discord-logo.png" alt="" />
+              <span><a href="https://discord.gg/6FnUEYHbRb">Discord</a></span>
+            </div>
+
+            <div class="app-btn">
+              <img class="roblox-logo" src="/images/roblox-logo.png" alt="" />
+              <span><a href="https://www.roblox.com/groups/33208627/Bulldog-Inc#!/about">Roblox</a></span>
+            </div>
+          </div>
+        </section>
+    </div>
